@@ -4,24 +4,24 @@ This repository contains a Scrapy spider designed to scrape Urdu stories from th
 
 ## Repository Structure
 .
-├── urdu_stories             # Scrapy project directory
-│   ├── scrapy.cfg
-│   └── urdu_stories         # Scrapy spider code
-│       ├── __init__.py
-│       ├── items.py         # Scrapy item definitions
-│       ├── middlewares.py   # Scrapy middlewares (if any)
-│       ├── pipelines.py     # Scrapy pipelines for data storage
-│       ├── settings.py      # Scrapy project settings
-│       └── spiders
-│           ├── __init__.py
-│           └── i20XXXX_urdu_stories_spider.py   # Scrapy spider for Urdu stories
-├── data                      # Folder containing CSV file with cleaned data
-│   └── urdu_stories.csv
-├── LaTeX_Report              # LaTeX report for documentation
-│   ├── main.tex
-│   └── references.bib
-├── README.md                 # Project README file
-└── requirements.txt          # Python dependencies
+├── urdu_stories             # Scrapy project directory  
+│   ├── scrapy.cfg  
+│   └── urdu_stories         # Scrapy spider code  
+│       ├── __init__.py  
+│       ├── items.py         # Scrapy item definitions  
+│       ├── middlewares.py   # Scrapy middlewares (if any)  
+│       ├── pipelines.py     # Scrapy pipelines for data storage  
+│       ├── settings.py      # Scrapy project settings  
+│       └── spiders  
+│           ├── __init__.py  
+│           └── i20XXXX_urdu_stories_spider.py   # Scrapy spider for Urdu stories  
+├── data                      # Folder containing CSV file with cleaned data  
+│   └── urdu_stories.csv  
+├── LaTeX_Report              # LaTeX report for documentation  
+│   ├── main.tex  
+│   └── references.bib  
+├── README.md                 # Project README file  
+└── requirements.txt          # Python dependencies  
 
 ## Getting Started
 * Clone the Repository:
